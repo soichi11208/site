@@ -1,6 +1,4 @@
-/* ===========================
-   全体設定
-=========================== */
+
 body {
   margin: 0;
   font-family: "Noto Sans JP", sans-serif;
@@ -237,3 +235,4 @@ pre, code {
   color: #1d1f29;
   border-color: #ffeb3b;
 }
+
