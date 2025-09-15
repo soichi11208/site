@@ -4,7 +4,7 @@ const tagFilter = document.getElementById('tagFilter');
 let allPosts = [];
 let selectedTag = null;
 
-// JSON読み込み
+// 読み込みんところ。
 fetch('posts.json')
   .then(res => res.json())
   .then(posts => {
@@ -17,7 +17,7 @@ fetch('posts.json')
     console.error(err);
   });
 
-// 記事描画
+// コメントなら何を書いてもゆるされのかな
 function renderPosts(posts) {
   blogList.innerHTML = "";
   if (posts.length === 0) {
@@ -38,10 +38,10 @@ function renderPosts(posts) {
   });
 }
 
-// 検索イベント
+// 検索するとこ
 searchBox.addEventListener('input', filterPosts);
 
-// タグボタン作成
+// 最近キーボードを英語配列に変えてまだ慣れない
 function renderTagButtons(posts) {
   const tags = new Set();
   posts.forEach(post => post.tags.forEach(tag => tags.add(tag)));
@@ -72,3 +72,4 @@ function filterPosts() {
   }
   renderPosts(filtered);
 }
+
