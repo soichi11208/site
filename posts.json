@@ -5,5 +5,12 @@
     "file": "posts/post1.html",
     "thumbnail": "posts/thumb1.jpg",
     "tags": ["AI","思想"]
+  },
+  {
+    "title": "高等言語(#･∀･)",
+    "date": "2025-09-12",
+    "file": "posts/post2.html",
+    "thumbnail": "posts/thumb2.jpg",
+    "tags": ["プログラミング","思想"]
   }
 ]
