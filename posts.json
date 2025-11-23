@@ -12,5 +12,26 @@
     "file": "posts/post2.html",
     "thumbnail": "posts/thumb2.jpg",
     "tags": ["プログラミング","思想"]
+  },
+  {
+    "title": "参政党の批判点",
+    "date": "2025-10-20",
+    "file": "posts/post3.html",
+    "thumbnail": "posts/thumb3.jpg",
+    "tags": ["政治","思想"]
+  },
+  {
+    "title": "AGI実現に必要なのは何か",
+    "date": "2025-11-06",
+    "file": "posts/post4.html",
+    "thumbnail": "posts/thumb4.jpg",
+    "tags": ["AI"]
+  },
+  {
+    "title": "日本が台湾有事に際し集団的自衛権を行使すべき理由",
+    "date": "2025-11-17",
+    "file": "posts/post5.html",
+    "thumbnail": "posts/thumb5.jpg",
+    "tags": ["政治","軍事","にわか地政学"]
   }
 ]
